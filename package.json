@@ -1,6 +1,6 @@
 {
   "name": "faqtor-of-uglify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Uglify.js plugin for the Faqtor build system",
   "repository": {
     "type": "git",
@@ -29,14 +29,15 @@
   "author": "Osman Bineev",
   "devDependencies": {
     "cash-mv": "^0.2.0",
+    "faqtor": "0.0.6",
     "faqtor-of-publish": "0.0.1",
     "fqr": "0.0.3",
     "rimraf": "^2.6.2",
     "typescript": "^3.0.1"
   },
   "dependencies": {
+    "@types/node": "^10.12.18",
     "@types/uglify-js": "^3.0.4",
-    "faqtor": "0.0.6",
     "uglify-js": "^3.4.9"
   }
 }
